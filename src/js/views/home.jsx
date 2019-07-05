@@ -143,6 +143,8 @@ export class Home extends React.Component {
 						/>
 					</div>
 				</div>
+				
+				{/* the final div */}
 			</div>
 		);
 	}
