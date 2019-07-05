@@ -1,6 +1,4 @@
 import React from "react";
-
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
 export class Home extends React.Component {
@@ -18,7 +16,7 @@ export class Home extends React.Component {
 								</p>
 							</div>
 						</div>
-						<nav className="navbar sticky-top ">
+						<nav className="navbar sticky-top navbar-light">
 							<a className="navbar-brand" href="#">
 								<img
 									src="https://totaltrademanagement.files.wordpress.com/2012/05/paint-brush-psd50308.png"
@@ -61,53 +59,88 @@ export class Home extends React.Component {
 								</li>
 							</ul>
 						</nav>
-						<div className="row px-4 py-4 autor">
-							<div className="col-12 col-sm-3 py-4 px-4">
-								<img
-									src="https://www.vincentvangogh.org/images/self-portrait.jpg"
-									className="img-autor img-fluid w-100"
-								/>
-							</div>
-							<div className="col-12 col-sm-9">
-								<h3 className="pt-4">
-									<em>Rydel Griñan Legra</em>
-								</h3>
-								<p className="text-justify">
-									Lorem Ipsum is simply dummy text of the
-									printing and typesetting industry. Lorem
-									Ipsum has been the industry is standard
-									dummy text ever since the 1500s, when an
-									unknown printer took a galley of type and
-									scrambled it to make a type specimen book.
-									It has survived not only f ive centuries,
-									but also the leap into electronic
-									typesetting, remaining essentially
-									unchanged. It was popularised in the 1960s
-									with the release of Letraset sheets
-									containing Lorem Ipsum passages, and more
-									recently with desktop publishing software
-									like Aldus PageMaker including versions of
-									Lorem Ipsum.
-								</p>
-								<p className="text-justify">
-									Lorem Ipsum is simply dummy text of the
-									printing and typesetting industry. Lorem
-									Ipsum has been the industry is standard
-									dummy text ever since the 1500s, when an
-									unknown printer took a galley of type and
-									scrambled it to make a type specimen book.
-									It has survived not only f ive centuries,
-									but also the leap into electronic
-									typesetting, remaining essentially
-									unchanged. It was popularised in the 1960s
-									with the release of Letraset sheets
-									containing Lorem Ipsum passages, and more
-									recently with desktop publishing software
-									like Aldus PageMaker including versions of
-									Lorem Ipsum.
-								</p>
-							</div>
-						</div>
+					</div>
+				</div>
+				{/* autor */}
+				<div className="row px-4 py-4 autor">
+					<div className="col-12 col-sm-3 py-4 px-4">
+						<img
+							src="https://www.vincentvangogh.org/images/self-portrait.jpg"
+							className="img-autor img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-9">
+						<h3 className="pt-4">
+							<em>Rydel Griñan Legra</em>
+						</h3>
+						<p className="text-justify">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+						<p className="text-justify">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+					</div>
+				</div>
+
+				{/* obras gallery */}
+				<div className="row obras">
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-2">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
 					</div>
 				</div>
 			</div>
