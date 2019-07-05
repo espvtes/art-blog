@@ -224,6 +224,38 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
+				<div className="row py-4 px-4">
+					<div className="col-12">
+						<h4>Proyectos</h4>
+					</div>
+				</div>
+				<div className="row py-4 py-4">
+					<div className="col-12 col-sm-4">
+						<img
+							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-4">
+						<img
+							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
+							className="img-fluid w-100"
+						/>
+					</div>
+					<div className="col-12 col-sm-4">
+						<img
+							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
+							className="img-fluid w-100"
+						/>
+					</div>
+				</div>
+				<div className="row pt-4">
+					<div className="col-12 text-center">
+						<button type="button" className="btn btn-warning">
+							Proyect
+						</button>
+					</div>
+				</div>
 				{/* the final div */}
 			</div>
 		);
