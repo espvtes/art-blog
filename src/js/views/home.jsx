@@ -105,45 +105,125 @@ export class Home extends React.Component {
 				</div>
 
 				{/* obras gallery */}
-				<div className="row obras">
-					<div className="col-12 col-sm-2">
+				<div className="row pl-4 py-4" id="obras">
+					<div className="col-12">
+						<h4 className="font-italic font-weight-bold">Obras</h4>
+					</div>
+				</div>
+				<div className="row obras px-4">
+					<div className="col-12 col-sm-3 p-1">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
+							className="img-fluid w-100"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text">
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
+					</div>
+					<div className="col-12 col-sm-3 p-1">
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text">
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 						<img
 							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
 							className="img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-2">
+					<div className="col-12 col-sm-3 p-1">
 						<img
 							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
 							className="img-fluid w-100"
 						/>
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text">
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 					</div>
-					<div className="col-12 col-sm-2">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
-							className="img-fluid w-100"
-						/>
-					</div>
-					<div className="col-12 col-sm-2">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
-							className="img-fluid w-100"
-						/>
-					</div>
-					<div className="col-12 col-sm-2">
-						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
-							className="img-fluid w-100"
-						/>
-					</div>
-					<div className="col-12 col-sm-2">
+					<div className="col-12 col-sm-3 p-1">
+						<div className="card-body">
+							<h5 className="card-title">Card title</h5>
+							<p className="card-text">
+								This is a wider card with supporting text below
+								as a natural lead-in to additional content. This
+								content is a little bit longer.
+							</p>
+						</div>
 						<img
 							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
 							className="img-fluid w-100"
 						/>
 					</div>
 				</div>
-				
+				<br />
+				<div className="row pt-4">
+					<div className="col-12 text-center">
+						<button type="button" className="btn btn-warning">
+							Galeria
+						</button>
+					</div>
+				</div>
+				{/* curriculum */}
+				<div className="row px-4 py-4">
+					<div className="col-12">
+						<h4 className="font-italic">Curriculum</h4>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+					</div>
+				</div>
 				{/* the final div */}
 			</div>
 		);

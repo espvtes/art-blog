@@ -1,7 +1,9 @@
 /* 
     General Styles
 */
-
+html{
+    scroll-behavior: smooth;
+}
 .jumbotron{
     background-image: url('https://totenart.com/tutoriales/wp-content/uploads/2017/05/vinho_na_tela_4.jpg');
 	background-repeat: no-repeat;
