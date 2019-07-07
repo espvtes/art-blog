@@ -103,7 +103,7 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
-
+				<hr />
 				{/* obras gallery */}
 				<div className="row pl-4 py-4" id="obras">
 					<div className="col-12">
@@ -176,10 +176,11 @@ export class Home extends React.Component {
 						</button>
 					</div>
 				</div>
+				<hr />
 				{/* curriculum */}
-				<div className="row px-4 py-4">
-					<div className="col-12">
-						<h4 className="font-italic">Curriculum</h4>
+				<div className="row px-4 py-4" id="curriculum">
+					<div className="col-12 py-4">
+						<h4 className="font-italic py-4 ">Curriculum</h4>
 						<p>
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
@@ -224,7 +225,15 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div className="row py-4 px-4">
+				<div className="row pt-4">
+					<div className="col-12 pt-4 text-center">
+						<button type="button" className="btn btn-warning">
+							Curriculum
+						</button>
+					</div>
+				</div>
+				<hr />
+				<div className="row py-4 px-4" id="proyecto">
 					<div className="col-12">
 						<h4>Proyectos</h4>
 					</div>
@@ -256,6 +265,7 @@ export class Home extends React.Component {
 						</button>
 					</div>
 				</div>
+
 				{/* the final div */}
 			</div>
 		);
