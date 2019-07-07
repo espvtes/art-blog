@@ -68,7 +68,7 @@ export class Home extends React.Component {
 						/>
 					</div>
 					<div className="col-12 col-sm-9">
-						<h3 className="pt-4 text-autor">
+						<h3 className="pt-4 text-autor font-weight-bold">
 							<em>Rydel Griñan Legra</em>
 						</h3>
 						<p className="text-justify">
@@ -103,8 +103,8 @@ export class Home extends React.Component {
 				</div>
 				<hr />
 				{/* obras gallery */}
-				<div className="row pl-4 py-4 obras" id="obras">
-					<div className="col-12">
+				<div className="row pl-4 py-4" id="obras">
+					<div className="col-12 text-obras">
 						<h4 className="font-italic font-weight-bold">Obras</h4>
 					</div>
 				</div>
@@ -180,7 +180,9 @@ export class Home extends React.Component {
 				{/* curriculum */}
 				<div className="row px-4 py-4" id="curriculum">
 					<div className="col-12 py-4">
-						<h4 className="font-italic py-4 ">Curriculum</h4>
+						<h4 className="font-italic py-4 text-curriculum font-weight-bold">
+							Curriculum
+						</h4>
 						<p>
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
@@ -240,7 +242,7 @@ export class Home extends React.Component {
 						<h4>Proyectos</h4>
 					</div>
 				</div>
-				<div className="row py-4 py-4">
+				<div className="row py-4 py-4 px-4">
 					<div className="col-12 col-sm-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"

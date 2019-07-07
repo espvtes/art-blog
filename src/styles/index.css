@@ -30,13 +30,14 @@ html{
 }
 
 .autor{
-    background-color:#383d45;
+    /* background-color:#383d45; */
     color: #ffffff;
 }
 body{
-    background-color:#383d45;
+    background-color:#1f2630;
     color:#fff;
 }
-.text-autor {
+.text-autor, .text-obras, .text-curriculum{
     text-shadow: 3px 4px black;
+    color:#cfa006
 }
