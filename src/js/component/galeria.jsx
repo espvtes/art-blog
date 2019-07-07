@@ -1,12 +1,12 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-export class Curriculum extends React.Component {
+export class Galeria extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-12">this is a curriculum</div>
+					<div className="col-12">I am here Galeria</div>
 				</div>
 			</div>
 		);

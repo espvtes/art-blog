@@ -11,10 +11,32 @@ html{
 }
 .navbar{
     background-color: black;
+    color: #ffffff;
 }
-
+.nav-link{
+    color: #fff;
+    text-decoration: none !important;
+}
+.nav-img{
+    border-radius: 50%;
+    border: 2px solid #f2b611;
+}
+.nav-link:hover{
+    color: orange;
+}
 .img-autor{
     border: 4px solid #cfa006;
 	border-radius: 50%;
 }
 
+.autor{
+    background-color:#383d45;
+    color: #ffffff;
+}
+body{
+    background-color:#383d45;
+    color:#fff;
+}
+.text-autor {
+    text-shadow: 3px 4px black;
+}

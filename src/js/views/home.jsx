@@ -1,66 +1,64 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/home.css";
 
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid">
-				<div className="row">
-					<div className="col-12 p-0">
-						<div className="jumbotron jumbotron-fluid" id="home">
-							<div className="container">
-								<h1 className="display-4">Fluid jumbotron</h1>
-								<p className="lead">
-									This is a modified jumbotron that occupies
-									the entire horizontal space of its parent.
-								</p>
-							</div>
-						</div>
-						<nav className="navbar sticky-top navbar-light">
-							<a className="navbar-brand" href="#">
-								<img
-									src="https://totaltrademanagement.files.wordpress.com/2012/05/paint-brush-psd50308.png"
-									className="nav-img"
-									width="50"
-									height="50"
-									alt=""
-								/>
-							</a>
-							<ul className="nav justify-content-end">
-								<li className="nav-item">
-									<a className="nav-link" href="#home">
-										Home
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#curriculum">
-										Curriculum
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#obras">
-										Obras
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#proyecto">
-										Proyectos
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">
-										link
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#contacto">
-										Contacto
-									</a>
-								</li>
-							</ul>
-						</nav>
+			<div className="container-fluid p-0">
+				<div className="jumbotron jumbotron-fluid" id="home">
+					<div className="container">
+						<h1 className="display-4">Fluid jumbotron</h1>
+						<p className="lead">
+							This is a modified jumbotron that occupies the
+							entire horizontal space of its parent.
+						</p>
 					</div>
 				</div>
+				<nav className="navbar sticky-top navbar-light">
+					<a className="navbar-brand" href="#">
+						<img
+							src="https://totaltrademanagement.files.wordpress.com/2012/05/paint-brush-psd50308.png"
+							className="nav-img"
+							width="50"
+							height="50"
+							alt=""
+						/>
+					</a>
+					<ul className="nav justify-content-end">
+						<li className="nav-item">
+							<a className="nav-link" href="#home">
+								Home
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#curriculum">
+								Curriculum
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#obras">
+								Obras
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#proyecto">
+								Proyectos
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#">
+								link
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#contacto">
+								Contacto
+							</a>
+						</li>
+					</ul>
+				</nav>
+
 				{/* autor */}
 				<div className="row px-4 py-4 autor">
 					<div className="col-12 col-sm-3 py-4 px-4">
@@ -70,7 +68,7 @@ export class Home extends React.Component {
 						/>
 					</div>
 					<div className="col-12 col-sm-9">
-						<h3 className="pt-4">
+						<h3 className="pt-4 text-autor">
 							<em>Rydel Griñan Legra</em>
 						</h3>
 						<p className="text-justify">
@@ -105,7 +103,7 @@ export class Home extends React.Component {
 				</div>
 				<hr />
 				{/* obras gallery */}
-				<div className="row pl-4 py-4" id="obras">
+				<div className="row pl-4 py-4 obras" id="obras">
 					<div className="col-12">
 						<h4 className="font-italic font-weight-bold">Obras</h4>
 					</div>
@@ -171,9 +169,11 @@ export class Home extends React.Component {
 				<br />
 				<div className="row pt-4">
 					<div className="col-12 text-center">
-						<button type="button" className="btn btn-warning">
-							Galeria
-						</button>
+						<Link to="/galeria">
+							<button type="button" className="btn btn-warning">
+								Galeria
+							</button>
+						</Link>
 					</div>
 				</div>
 				<hr />
@@ -227,9 +227,11 @@ export class Home extends React.Component {
 				</div>
 				<div className="row pt-4">
 					<div className="col-12 pt-4 text-center">
-						<button type="button" className="btn btn-warning">
-							Curriculum
-						</button>
+						<Link to="/curriculum">
+							<button type="button" className="btn btn-warning">
+								Curriculum
+							</button>
+						</Link>
 					</div>
 				</div>
 				<hr />
@@ -260,9 +262,11 @@ export class Home extends React.Component {
 				</div>
 				<div className="row pt-4">
 					<div className="col-12 text-center">
-						<button type="button" className="btn btn-warning">
-							Proyect
-						</button>
+						<Link to="/proyectos">
+							<button type="button" className="btn btn-warning">
+								Proyect
+							</button>
+						</Link>
 					</div>
 				</div>
 

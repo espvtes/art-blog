@@ -6,6 +6,8 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import { Curriculum } from "./component/curriculum.jsx";
+import { Galeria } from "./component/galeria.jsx";
+import { Proyectos } from "./component/proyectos.jsx";
 import Store from "./store/appContext.jsx";
 
 // import { Navbar } from "./component/navbar.jsx";
@@ -23,7 +25,9 @@ export class Layout extends React.Component {
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
 							<Route path="/single/:theid" component={Single} />
-							<Route path="curriculum" component={Curriculum} />
+							<Route path="/curriculum" component={Curriculum} />
+							<Route path="/galeria" component={Galeria} />
+							<Route path="/proyectos" component={Proyectos} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
 						<Footer />
