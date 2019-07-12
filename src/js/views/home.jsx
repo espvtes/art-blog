@@ -6,62 +6,9 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid p-0">
-				<div className="jumbotron jumbotron-fluid" id="home">
-					<div className="container">
-						<h1 className="display-4">Fluid jumbotron</h1>
-						<p className="lead">
-							This is a modified jumbotron that occupies the
-							entire horizontal space of its parent.
-						</p>
-					</div>
-				</div>
-				<nav className="navbar sticky-top navbar-light">
-					<a className="navbar-brand" href="#">
-						<img
-							src="https://totaltrademanagement.files.wordpress.com/2012/05/paint-brush-psd50308.png"
-							className="nav-img"
-							width="50"
-							height="50"
-							alt=""
-						/>
-					</a>
-					<ul className="nav justify-content-end">
-						<li className="nav-item">
-							<a className="nav-link" href="#home">
-								Home
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#curriculum">
-								Curriculum
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#obras">
-								Obras
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#proyecto">
-								Proyectos
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								link
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#contacto">
-								Contacto
-							</a>
-						</li>
-					</ul>
-				</nav>
-
 				{/* autor */}
-				<div className="row px-4 py-4 autor">
-					<div className="col-12 col-sm-3 py-4 px-4">
+				<div className="row py-4 px-4 autor">
+					<div className="col-12 col-sm-3 py-4">
 						<img
 							src="https://www.vincentvangogh.org/images/self-portrait.jpg"
 							className="img-autor img-fluid w-100"
@@ -101,15 +48,18 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
-				<hr />
+
+				<hr className="border-bottom" />
+
 				{/* obras gallery */}
-				<div className="row pl-4 py-4" id="obras">
+
+				<div className="row py-4 px-4" id="obras">
 					<div className="col-12 text-obras">
 						<h4 className="font-italic font-weight-bold">Obras</h4>
 					</div>
 				</div>
-				<div className="row obras px-4">
-					<div className="col-12 col-sm-3 p-1">
+				<div className="row px-4 obras">
+					<div className="col-12 px-4 col-sm-3 p-1">
 						<img
 							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
 							className="img-fluid w-100"
@@ -123,7 +73,7 @@ export class Home extends React.Component {
 							</p>
 						</div>
 					</div>
-					<div className="col-12 col-sm-3 p-1">
+					<div className="col-12 px-4 col-sm-3 p-1">
 						<div className="card-body">
 							<h5 className="card-title">Card title</h5>
 							<p className="card-text">
@@ -137,7 +87,7 @@ export class Home extends React.Component {
 							className="img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-3 p-1">
+					<div className="col-12 px-4 col-sm-3 p-1">
 						<img
 							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCdUNM4ampTct8ridogQcvmk08gL2ada95_WIT6_0FexNUcNE_"
 							className="img-fluid w-100"
@@ -151,7 +101,7 @@ export class Home extends React.Component {
 							</p>
 						</div>
 					</div>
-					<div className="col-12 col-sm-3 p-1">
+					<div className="col-12 px-4 col-sm-3 p-1">
 						<div className="card-body">
 							<h5 className="card-title">Card title</h5>
 							<p className="card-text">
@@ -165,10 +115,11 @@ export class Home extends React.Component {
 							className="img-fluid w-100"
 						/>
 					</div>
+
+					<br />
 				</div>
-				<br />
 				<div className="row pt-4">
-					<div className="col-12 text-center">
+					<div className="col-12 pt-4 text-center">
 						<Link to="/galeria">
 							<button type="button" className="btn btn-warning">
 								Galeria
@@ -176,14 +127,15 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-				<hr />
+
+				<hr className="border-bottom" />
 				{/* curriculum */}
-				<div className="row px-4 py-4" id="curriculum">
+				<div className="row py-4 px-4 " id="curriculum">
 					<div className="col-12 py-4">
 						<h4 className="font-italic py-4 text-curriculum font-weight-bold">
 							Curriculum
 						</h4>
-						<p>
+						<p className="text-justify">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
 							industry is standard dummy text ever since the
@@ -197,7 +149,7 @@ export class Home extends React.Component {
 							publishing software like Aldus PageMaker including
 							versions of Lorem Ipsum.
 						</p>
-						<p>
+						<p className="text-justify">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
 							industry is standard dummy text ever since the
@@ -211,7 +163,7 @@ export class Home extends React.Component {
 							publishing software like Aldus PageMaker including
 							versions of Lorem Ipsum.
 						</p>
-						<p>
+						<p className="text-justify">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
 							industry is standard dummy text ever since the
@@ -236,14 +188,15 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-				<hr />
+				<hr className="border-bottom" />
+				{/* proyectos */}
 				<div className="row py-4 px-4" id="proyecto">
 					<div className="col-12">
 						<h4>Proyectos</h4>
 					</div>
 				</div>
-				<div className="row py-4 py-4 px-4">
-					<div className="col-12 col-sm-4">
+				<div className="row px-4 py-4">
+					<div className="col-12 col-sm-4 px-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
 							className="img-fluid w-100"
@@ -266,7 +219,7 @@ export class Home extends React.Component {
 					<div className="col-12 text-center">
 						<Link to="/proyectos">
 							<button type="button" className="btn btn-warning">
-								Proyect
+								Proyecto
 							</button>
 						</Link>
 					</div>

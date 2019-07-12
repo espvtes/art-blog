@@ -18,7 +18,27 @@ export class Footer extends Component {
 					</div>
 					<div className="col-12 col-sm-4">contacto aqui</div>
 					<div className="col-12 col-sm-4">
-						donde enviar un mensaje
+						<div className="">
+							<input
+								type="text"
+								className="name"
+								placeholder="Nombre"
+							/>
+						</div>
+						<div className="pt-2">
+							<input
+								type="text"
+								className="email"
+								placeholder="Correo"
+							/>
+						</div>
+						<div className="pt-2">
+							<input
+								type="text"
+								className="message"
+								placeholder="Mensaje"
+							/>
+						</div>
 					</div>
 				</div>
 			</footer>
