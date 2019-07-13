@@ -14,11 +14,8 @@ export class Home extends React.Component {
 							className="img-autor img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-9">
-						<h3 className="pt-4 text-autor font-weight-bold">
-							<em>Rydel Griñan Legra</em>
-						</h3>
-						<p className="text-justify">
+					<div className="col-12 col-sm-9 py-4">
+						<p className="text-justify pt-4">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
 							industry is standard dummy text ever since the
@@ -55,7 +52,9 @@ export class Home extends React.Component {
 
 				<div className="row py-4 px-4" id="obras">
 					<div className="col-12 text-obras">
-						<h4 className="font-italic font-weight-bold">Obras</h4>
+						<h4 className="font-italic font-weight-bold pl-2">
+							Obras
+						</h4>
 					</div>
 				</div>
 				<div className="row px-4 obras">
@@ -192,7 +191,9 @@ export class Home extends React.Component {
 				{/* proyectos */}
 				<div className="row py-4 px-4" id="proyecto">
 					<div className="col-12">
-						<h4>Proyectos</h4>
+						<h4 className="text-obras font-italic pl-2">
+							Proyectos
+						</h4>
 					</div>
 				</div>
 				<div className="row px-4 py-4">
