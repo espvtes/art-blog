@@ -189,7 +189,7 @@ export class Home extends React.Component {
 				</div>
 				<hr className="border-bottom" />
 				{/* proyectos */}
-				<div className="row py-4 px-4" id="proyecto">
+				<div className="row pt-4 px-4" id="proyecto">
 					<div className="col-12">
 						<h4 className="text-obras font-italic pl-2">
 							Proyectos
@@ -197,7 +197,7 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="row px-4 py-4">
-					<div className="col-12 col-sm-4 px-4">
+					<div className="col-12 col-sm-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
 							className="img-fluid w-100"
