@@ -1,4 +1,4 @@
-/* 
+/*
     General Styles
 */
 html{
@@ -38,28 +38,28 @@ body{
     background-color:#1f2630;
     color:#fff;
 }
-.text-autor, .text-obras, .text-curriculum{
+.text-proyecto, .text-obras, .text-curriculum{
     text-shadow: 3px 4px black;
-    color:#cfa006
+    color:#cfa006;
+    padding-left: 67px;
+    font-size: 29px;
 }
 .curriculum-body{
     /* background-color: #fff; */
     color: #fff;
 }
 .name{
-    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Architects Daughter', cursive;
     color: #000;
-    /* font-family: 'Literata', serif; */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'Bangers', cursive; */
+
 }
 
 /* .overlay {
-    position: absolute; 
-    bottom: 0; 
+    position: absolute;
+    bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
     width: 100%;
     transition: .5s ease;
     opacity:0;
@@ -68,7 +68,7 @@ body{
     padding: 20px;
     text-align: center;
   }
-  
+
   .container:hover .overlay {
     opacity: 1;
   } */
@@ -82,4 +82,35 @@ body{
   }
   .footer{
       background-color: #000;
+  }
+  .obras-menu{
+      width: 200px;
+      background-color: #000;
+      /* padding: 12px; */
+      color: #cfa006;
+      border: 2px solid #cfa006;
+      border-left: none !important;
+      margin-left: -58px;
+      padding-top: 5px;
+  }
+
+  .proyecto-menu{
+      width: 200px;
+      background-color: #000;
+      /* padding: 12px; */
+      color: #cfa006;
+      border: 2px solid #cfa006;
+      border-left: none !important;
+      margin-left: -58px;
+      padding-top: 5px;
+  }
+  .curriculum-menu{
+      width: 200px;
+      background-color: #000;
+      /* padding: 12px; */
+      color: #cfa006;
+      border: 2px solid #cfa006;
+      border-left: none !important;
+      margin-left: -58px;
+      padding-top: 5px;
   }

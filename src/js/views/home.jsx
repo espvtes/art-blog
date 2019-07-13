@@ -51,8 +51,8 @@ export class Home extends React.Component {
 				{/* obras gallery */}
 
 				<div className="row py-4 px-4" id="obras">
-					<div className="col-12 text-obras">
-						<h4 className="font-italic font-weight-bold pl-2">
+					<div className="col-12 col-sm-2 obras-menu">
+						<h4 className="font-italic font-weight-bold text-obras">
 							Obras
 						</h4>
 					</div>
@@ -130,10 +130,14 @@ export class Home extends React.Component {
 				<hr className="border-bottom" />
 				{/* curriculum */}
 				<div className="row py-4 px-4 " id="curriculum">
-					<div className="col-12 py-4">
-						<h4 className="font-italic py-4 text-curriculum font-weight-bold">
+					<div className="col-12 col-sm-3 curriculum-menu">
+						<h4 className="font-italic text-curriculum font-weight-bold">
 							Curriculum
 						</h4>
+					</div>
+				</div>
+				<div className="row px-4">
+					<div className="col-12 px-4">
 						<p className="text-justify">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
@@ -190,26 +194,26 @@ export class Home extends React.Component {
 				<hr className="border-bottom" />
 				{/* proyectos */}
 				<div className="row pt-4 px-4" id="proyecto">
-					<div className="col-12">
-						<h4 className="text-obras font-italic pl-2">
+					<div className="col-12 col-sm-3 proyecto-menu">
+						<h4 className="font-italic font-weight-bold text-proyecto">
 							Proyectos
 						</h4>
 					</div>
 				</div>
 				<div className="row px-4 py-4">
-					<div className="col-12 col-sm-4">
+					<div className="col-12 col-sm-4 px-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
 							className="img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-4">
+					<div className="col-12 col-sm-4 px-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
 							className="img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-4">
+					<div className="col-12 col-sm-4 px-4">
 						<img
 							src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
 							className="img-fluid w-100"
