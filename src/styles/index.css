@@ -43,12 +43,15 @@ body{
     color:#cfa006
 }
 .curriculum-body{
-    background-color: #fff;
-    color: black;
+    /* background-color: #fff; */
+    color: #fff;
 }
 .name{
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
     color: #000;
+    /* font-family: 'Literata', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Bangers', cursive; */
 }
 
 /* .overlay {
@@ -76,4 +79,7 @@ body{
     -webkit-transform: scale(1.3); /* Safari 3-8 */
     transform: scale(1.3);
     z-index: 1000;
+  }
+  .footer{
+      background-color: #000;
   }

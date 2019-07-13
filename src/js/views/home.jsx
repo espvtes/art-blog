@@ -216,7 +216,7 @@ export class Home extends React.Component {
 						/>
 					</div>
 				</div>
-				<div className="row pt-4">
+				<div className="row py-4">
 					<div className="col-12 text-center">
 						<Link to="/proyectos">
 							<button type="button" className="btn btn-warning">
