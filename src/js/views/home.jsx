@@ -51,8 +51,8 @@ export class Home extends React.Component {
 				{/* obras gallery */}
 
 				<div className="row py-4 px-4" id="obras">
-					<div className="col-12 col-sm-2 obras-menu">
-						<h4 className="font-italic font-weight-bold text-obras">
+					<div className="col-12 col-sm-2">
+						<h4 className="font-italic font-weight-bold obras-menu text-obras">
 							Obras
 						</h4>
 					</div>
@@ -120,7 +120,9 @@ export class Home extends React.Component {
 				<div className="row pt-4">
 					<div className="col-12 pt-4 text-center">
 						<Link to="/galeria">
-							<button type="button" className="btn btn-warning">
+							<button
+								type="button"
+								className="btn btn-warning font-weight-bold">
 								Galeria
 							</button>
 						</Link>
@@ -130,8 +132,8 @@ export class Home extends React.Component {
 				<hr className="border-bottom" />
 				{/* curriculum */}
 				<div className="row py-4 px-4 " id="curriculum">
-					<div className="col-12 col-sm-3 curriculum-menu">
-						<h4 className="font-italic text-curriculum font-weight-bold">
+					<div className="col-12 col-sm-4">
+						<h4 className="font-italic text-curriculum curriculum-menu font-weight-bold">
 							Curriculum
 						</h4>
 					</div>
@@ -180,12 +182,56 @@ export class Home extends React.Component {
 							publishing software like Aldus PageMaker including
 							versions of Lorem Ipsum.
 						</p>
+						<p className="text-justify">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+						<p className="text-justify">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
+						<p className="text-justify">
+							Lorem Ipsum is simply dummy text of the printing and
+							typesetting industry. Lorem Ipsum has been the
+							industry is standard dummy text ever since the
+							1500s, when an unknown printer took a galley of type
+							and scrambled it to make a type specimen book. It
+							has survived not only f ive centuries, but also the
+							leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the
+							1960s with the release of Letraset sheets containing
+							Lorem Ipsum passages, and more recently with desktop
+							publishing software like Aldus PageMaker including
+							versions of Lorem Ipsum.
+						</p>
 					</div>
 				</div>
 				<div className="row pt-4">
 					<div className="col-12 pt-4 text-center">
 						<Link to="/curriculum">
-							<button type="button" className="btn btn-warning">
+							<button
+								type="button"
+								className="btn btn-warning font-weight-bold">
 								Curriculum
 							</button>
 						</Link>
@@ -194,8 +240,8 @@ export class Home extends React.Component {
 				<hr className="border-bottom" />
 				{/* proyectos */}
 				<div className="row pt-4 px-4" id="proyecto">
-					<div className="col-12 col-sm-3 proyecto-menu">
-						<h4 className="font-italic font-weight-bold text-proyecto">
+					<div className="col-12 col-sm-3">
+						<h4 className="font-italic font-weight-bold proyecto-menu text-proyecto">
 							Proyectos
 						</h4>
 					</div>
@@ -223,7 +269,9 @@ export class Home extends React.Component {
 				<div className="row py-4">
 					<div className="col-12 text-center">
 						<Link to="/proyectos">
-							<button type="button" className="btn btn-warning">
+							<button
+								type="button"
+								className="btn btn-warning font-weight-bold">
 								Proyecto
 							</button>
 						</Link>
