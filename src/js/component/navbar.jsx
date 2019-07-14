@@ -17,7 +17,7 @@ export class Navbar extends React.Component {
 				<ul className="nav justify-content-end">
 					<li className="nav-item">
 						<Link to="/">
-							<a className="nav-link" href="#home">
+							<a className="nav-link home" href="#home">
 								Home
 							</a>
 						</Link>

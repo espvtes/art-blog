@@ -15,7 +15,7 @@ export class Home extends React.Component {
 						/>
 					</div>
 					<div className="col-12 col-sm-9 py-4">
-						<p className="text-justify pt-4">
+						<p className="text-justify">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
 							industry is standard dummy text ever since the
