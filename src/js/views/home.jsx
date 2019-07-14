@@ -118,7 +118,7 @@ export class Home extends React.Component {
 					<br />
 				</div>
 				<div className="row pt-4">
-					<div className="col-12 pt-4 text-center">
+					<div className="col-12 py-4 text-center">
 						<Link to="/galeria">
 							<button
 								type="button"
@@ -226,8 +226,8 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div className="row pt-4">
-					<div className="col-12 pt-4 text-center">
+				<div className="row py-4">
+					<div className="col-12 py-4 text-center">
 						<Link to="/curriculum">
 							<button
 								type="button"
@@ -239,8 +239,8 @@ export class Home extends React.Component {
 				</div>
 				<hr className="border-bottom" />
 				{/* proyectos */}
-				<div className="row pt-4 px-4" id="proyecto">
-					<div className="col-12 col-sm-3">
+				<div className="row py-4 px-4" id="proyecto">
+					<div className="col-12 py-4 col-sm-3">
 						<h4 className="font-italic font-weight-bold proyecto-menu text-proyecto">
 							Proyectos
 						</h4>
@@ -267,7 +267,7 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="row py-4">
-					<div className="col-12 text-center">
+					<div className="col-12 py-4 text-center">
 						<Link to="/proyectos">
 							<button
 								type="button"

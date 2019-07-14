@@ -6,9 +6,7 @@ export class Jumbotron extends React.Component {
 			<div className="container-fluid p-0">
 				<div className="jumbotron jumbotron-fluid" id="home">
 					<div className="container">
-						<h1
-							className="display-4 name font-weight-bold font-italic"
-							style={{ fontFamily: "Architects Daughter" }}>
+						<h1 className="display-4 name font-weight-bold font-italic">
 							Raydel Griñan
 						</h1>
 						<p className="lead">

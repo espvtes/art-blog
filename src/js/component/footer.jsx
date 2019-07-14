@@ -21,7 +21,7 @@ export class Footer extends Component {
 						<div className="">
 							<input
 								type="text"
-								className="name"
+								className="fullName"
 								placeholder="Nombre"
 							/>
 						</div>
