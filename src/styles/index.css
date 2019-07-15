@@ -51,7 +51,10 @@ body{
 }
 .name{
     /* font-family: 'Architects Daughter', cursive; */
-    font-family: 'Rock Salt', cursive;
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Bilbo Swash Caps', cursive; */
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 105px;
     color: #000;
 
 }
