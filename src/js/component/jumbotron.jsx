@@ -6,11 +6,9 @@ export class Jumbotron extends React.Component {
 			<div className="container-fluid p-0">
 				<div className="jumbotron jumbotron-fluid" id="home">
 					<div className="container">
-						<h1 className="display-4 name">Raydel Griñan</h1>
-						<p className="lead">
-							This is a modified jumbotron that occupies the
-							entire horizontal space of its parent.
-						</p>
+						<h1 className="display-4 name font-italic">
+							Raydel Griñan
+						</h1>
 					</div>
 				</div>
 			</div>
