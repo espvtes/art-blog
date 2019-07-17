@@ -122,7 +122,7 @@ export class Home extends React.Component {
 						<Link to="/galeria">
 							<button
 								type="button"
-								className="btn btn-warning font-weight-bold">
+								className="btn btn-outline-warning font-weight-bold">
 								Galeria
 							</button>
 						</Link>
@@ -231,8 +231,8 @@ export class Home extends React.Component {
 						<Link to="/curriculum">
 							<button
 								type="button"
-								className="btn btn-warning font-weight-bold">
-								Curriculum
+								className="btn btn-outline-warning font-weight-bold">
+								Ver más...
 							</button>
 						</Link>
 					</div>
@@ -271,8 +271,8 @@ export class Home extends React.Component {
 						<Link to="/proyectos">
 							<button
 								type="button"
-								className="btn btn-warning font-weight-bold">
-								Ver mas...
+								className="btn btn-outline-warning font-weight-bold">
+								Ver más...
 							</button>
 						</Link>
 					</div>

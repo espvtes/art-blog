@@ -10,7 +10,7 @@ import { Galeria } from "./component/galeria.jsx";
 import { Proyectos } from "./component/proyectos.jsx";
 import Store from "./store/appContext.jsx";
 
-import { Jumbotron } from "./component/jumbotron.jsx";
+// import { Jumbotron } from "./component/jumbotron.jsx";
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
 
@@ -21,7 +21,7 @@ export class Layout extends React.Component {
 			<div className="d-flex flex-column h-100">
 				<BrowserRouter>
 					<ScrollToTop>
-						<Jumbotron />
+						{/*<Jumbotron />*/}
 						<Navbar />
 						<Switch>
 							<Route exact path="/" component={Home} />

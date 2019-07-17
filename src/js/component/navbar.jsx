@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar sticky-top navbar-light">
+			<nav className="navbar fixed-top navbar-light">
 				<a className="navbar-brand" href="#">
 					<img
 						src="https://totaltrademanagement.files.wordpress.com/2012/05/paint-brush-psd50308.png"

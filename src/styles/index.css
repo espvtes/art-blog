@@ -11,11 +11,11 @@ html{
     height: 280px;
 }
 .navbar{
-    background-color: #f2b611;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 .nav-link{
-    color: #000;
+    color: #fff;
     text-decoration: none !important;
 }
 .nav-img{
@@ -60,6 +60,11 @@ body{
 }
 a{
     font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+a:link{
+    text-decoration: none !important;
 }
 
 .overlay {
@@ -90,6 +95,7 @@ a{
   }
   .footer{
       background-color: #000;
+      color: #fff;
   }
   .obras-menu{
       width: 181px;
@@ -130,4 +136,14 @@ a{
 
 .line{
     border-bottom: 2px solid #cfa006;
+    width: 50%;
+    margin: auto;
 }
+
+/* .sample{
+    width: 150px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25%;
+} */

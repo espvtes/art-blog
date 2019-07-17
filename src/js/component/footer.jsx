@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Footer extends Component {
 	render() {
@@ -21,19 +22,28 @@ export class Footer extends Component {
 					</div>
 				</div>
 				<div className="line" />
-				<div className="row">
+				<div className="row pb-4">
 					<div className="col-12 text-center">
-						<label>
+						<a
+							href="https://www.facebook.com/airen.delgado.5"
+							target="-blank">
 							<b>Facebook</b>
-						</label>
-						<label className="pl-4">
+						</a>
+						<a
+							href="https://www.instagram.com/airendelgado/"
+							className="pl-4"
+							target="-blank">
 							<b>Instagram</b>
-						</label>
-						<label className="pl-4">
+						</a>
+						<a
+							href="https://twitter.com/?lang=es"
+							className="pl-4"
+							target="-blank">
 							<b>Twitter</b>
-						</label>
+						</a>
 					</div>
 				</div>
+				<br className="pt-4" />
 			</footer>
 		);
 	}
