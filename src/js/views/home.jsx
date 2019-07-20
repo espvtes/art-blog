@@ -46,10 +46,10 @@ export class Home extends React.Component {
 					</div>
 				</div>
 
-				<hr className="border-bottom" />
+				{/*<hr className="border-bottom" />*/}
 
 				{/* obras gallery */}
-
+				<div className="parallax" />
 				<div className="row py-4 px-4" id="obras">
 					<div className="col-12 col-sm-2">
 						<h4 className="font-italic font-weight-bold obras-menu text-obras">

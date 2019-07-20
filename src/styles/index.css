@@ -139,7 +139,14 @@ a:link{
     width: 50%;
     margin: auto;
 }
-
+.parallax{
+    background-image: url('https://www.saa.co.uk/media/catalog/category/cat_oil-paints_header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
 /* .sample{
     width: 150px;
     border: 2px solid white;
