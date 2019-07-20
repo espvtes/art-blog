@@ -6,6 +6,9 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid p-0">
+				<div className="row py-4">
+					<div className="col-12 py-4" />
+				</div>
 				{/* autor */}
 				<div className="row py-4 px-4 autor">
 					<div className="col-12 col-sm-3 py-4">
@@ -15,6 +18,7 @@ export class Home extends React.Component {
 						/>
 					</div>
 					<div className="col-12 col-sm-9 py-4">
+						<h3 className="name font-italic">Raydel Griñan</h3>
 						<p className="text-justify pt-4">
 							Lorem Ipsum is simply dummy text of the printing and
 							typesetting industry. Lorem Ipsum has been the
@@ -45,12 +49,13 @@ export class Home extends React.Component {
 						</p>
 					</div>
 				</div>
-
 				{/*<hr className="border-bottom" />*/}
-
 				{/* obras gallery */}
 				<div className="parallax" />
-				<div className="row py-4 px-4" id="obras">
+				<div className="row py-4">
+					<div className="col-12 py-4" id="obras" />
+				</div>
+				<div className="row py-4 px-4">
 					<div className="col-12 col-sm-2">
 						<h4 className="font-italic font-weight-bold obras-menu text-obras">
 							Obras
@@ -128,10 +133,12 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-
-				<hr className="border-bottom" />
+				{/*<hr className="border-bottom" />*/}
 				{/* curriculum */}
-				<div className="row py-4 px-4 " id="curriculum">
+				<div className="row py-4">
+					<div className="col-12 py-4" id="curriculum" />
+				</div>
+				<div className="row py-4 px-4 ">
 					<div className="col-12 col-sm-4">
 						<h4 className="font-italic text-curriculum curriculum-menu font-weight-bold">
 							Curriculum
@@ -237,9 +244,12 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-				<hr className="border-bottom" />
+				{/*<hr className="border-bottom" />*/}
 				{/* proyectos */}
-				<div className="row py-4 px-4" id="proyecto">
+				<div className="row py-4">
+					<div className="col-12 py-4" id="proyecto" />
+				</div>
+				<div className="row py-4 px-4">
 					<div className="col-12 py-4 col-sm-3">
 						<h4 className="font-italic font-weight-bold proyecto-menu text-proyecto">
 							Proyectos
@@ -277,7 +287,6 @@ export class Home extends React.Component {
 						</Link>
 					</div>
 				</div>
-
 				{/* the final div */}
 			</div>
 		);

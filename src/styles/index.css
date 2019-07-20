@@ -50,12 +50,12 @@ body{
     color: #fff;
 }
 .name{
-    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Architects Daughter', cursive;
     /* font-family: 'Rock Salt', cursive; */
     /* font-family: 'Bilbo Swash Caps', cursive; */
-    font-family: 'Lovers Quarrel', cursive;
-    font-size: 105px;
-    color: #000;
+    /* font-family: 'Lovers Quarrel', cursive; */
+    font-size: 41px;
+    color:#cfa006;
 
 }
 a{
@@ -140,7 +140,7 @@ a:link{
     margin: auto;
 }
 .parallax{
-    background-image: url('https://www.saa.co.uk/media/catalog/category/cat_oil-paints_header.jpg');
+    background-image: url('https://octagonarts.org/wp-content/uploads/2018/12/oil-paint-840x480.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
