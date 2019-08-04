@@ -134,6 +134,7 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				{/*<hr className="border-bottom" />*/}
+				<div className="parallax" />
 				{/* curriculum */}
 				<div className="row py-4">
 					<div className="col-12 py-4" id="curriculum" />
@@ -246,6 +247,7 @@ export class Home extends React.Component {
 				</div>
 				{/*<hr className="border-bottom" />*/}
 				{/* proyectos */}
+				<div className="parallax" />
 				<div className="row py-4">
 					<div className="col-12 py-4" id="proyecto" />
 				</div>
