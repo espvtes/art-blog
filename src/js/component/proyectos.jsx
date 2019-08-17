@@ -4,7 +4,7 @@ export class Proyectos extends React.Component {
 	render() {
 		return (
 			<div className="contianer-fluid bg-secondary">
-				<div className="container">
+				<div className="container pt-4">
 					<div className="row pt-4">
 						<div className="col-12 col-sm-4 px-4">
 							<img
