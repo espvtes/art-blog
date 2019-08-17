@@ -147,6 +147,9 @@ a:link{
     background-position: center;
     height: 400px;
 }
+.container{
+    margin-top: 100px;
+}
 /* .sample{
     width: 150px;
     border: 2px solid white;
