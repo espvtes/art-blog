@@ -12,6 +12,11 @@ const getState = ({ getStore, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
+			],
+			mainTitle: [
+				{
+					autor: "Raidel Griñan"
+				}
 			]
 		},
 		actions: {

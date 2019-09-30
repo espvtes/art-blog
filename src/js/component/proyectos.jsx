@@ -9,6 +9,9 @@ export class Proyectos extends React.Component {
 					<div className="col-12  pt-4" />
 				</div>
 				<div className="container pt-4 ">
+					<h3 className="font-italic font-bold proyecto-text">
+						Proyectos en Procesos....
+					</h3>
 					<div className="row pt-4">
 						<div className="col-12 col-sm-4 px-4">
 							<img
@@ -73,8 +76,8 @@ export class Proyectos extends React.Component {
 					</div>
 				</div>
 				<div className="up float-right pr-4 pb-4">
-					<button type="button" className="btn btn-warning">
-						<a className="" href="#project-up">
+					<button type="button" className="btn btn-warning ">
+						<a className="up " href="#project-up">
 							up
 						</a>
 					</button>

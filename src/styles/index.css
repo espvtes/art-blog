@@ -121,6 +121,10 @@ a:link{
       border-radius: 25px;
       padding-bottom: 9px;
   }
+  .proyecto-text{
+      color:#000;
+      /* color: #cfa006; */
+  }
   .curriculum-menu{
       width: 241px;
       background-color: #000;
@@ -150,6 +154,7 @@ a:link{
 .container{
     margin-top: 100px;
 }
+
 /* .sample{
     width: 150px;
     border: 2px solid white;

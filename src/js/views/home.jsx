@@ -5,7 +5,7 @@ import "../../styles/home.css";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid p-0">
+			<div className="container-fluid p-0" id="home-up">
 				<div className="row py-4">
 					<div className="col-12 py-4" />
 				</div>
@@ -290,6 +290,13 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				{/* the final div */}
+				<div className="up float-right pr-4 pb-4">
+					<button type="button" className="btn btn-warning ">
+						<a className="up " href="#home-up">
+							up
+						</a>
+					</button>
+				</div>
 			</div>
 		);
 	}
